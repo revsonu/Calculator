@@ -7,6 +7,7 @@ const Display = ({displayValue}) =>{
   className={styles.display}  
   value = {displayValue} 
   readOnly
+  
   />
   );
 }

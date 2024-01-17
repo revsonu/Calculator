@@ -22,12 +22,12 @@ function App() {
   };
 
   return (
-    <center>
-      <div className={styles.Calculator}>
+    <div className={styles.containerc}>
+      <div className={`${styles.Calculator}`}>
         <Display displayValue={calVal}></Display>
         <ButtonsContainer onButtonClick={onButtonClick}></ButtonsContainer>
       </div>
-    </center>
+    </div>
   );
 }
 

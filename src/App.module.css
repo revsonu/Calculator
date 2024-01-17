@@ -1,9 +1,16 @@
 .Calculator{
-  background-color: aqua;
+  background-color: rgba(22, 3, 3, 0.863);
   border: 2px solid black;
   border-radius: 5px;
   width: 200px;
   margin: 5px;
+  
 }
-
+.containerc{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
